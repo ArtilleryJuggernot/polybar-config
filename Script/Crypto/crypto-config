@@ -1,0 +1,16 @@
+[general]
+#NZD
+base_currency = EUR
+display = price
+
+[bitcoin]
+icon = 
+
+[ethereum]
+icon = 
+
+[solana]
+icon = SOL
+
+[litecoin]
+icon = 
