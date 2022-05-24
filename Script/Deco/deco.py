@@ -16,6 +16,6 @@ with open(expanduser('deco-config'), 'r', encoding='utf-8') as f:
 data  = [x for x in config.sections()]
 
 # Display element
-for element  in currencies:
+for element  in data:
     c = config[element]['content']
     sys.stdout.write(f'{c}')
